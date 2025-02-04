@@ -34,7 +34,7 @@ function getBadgeColor(categorie) {
     }
 }
 
-// Ajouter un client
+/* Ajouter un client
 function ajouterClient() {
     let nom = document.getElementById("nom").value;
     let prenom = document.getElementById("prenom").value;
@@ -73,7 +73,7 @@ function filtrerClients() {
     );
 
     afficherClients(clientsFiltres);
-}
+}*/
 
 // Afficher tous les clients au chargement
 afficherClients(clients);
